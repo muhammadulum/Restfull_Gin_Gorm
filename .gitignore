@@ -1,0 +1,47 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Dependency directories (vendor/)
+vendor/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.swp
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment and secrets
+.env
+.env.local
+
+# Swagger generated docs
+/docs/* 
+!docs/docs.go     # tetap include file utama agar bisa build
+
+# Go module cache
+go.sum
+
+# Fiber session files (jika digunakan)
+sessions/
+
+# Node.js (jika kamu pakai untuk frontend di repo yang sama)
+node_modules/
+dist/
+build/
