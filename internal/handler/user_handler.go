@@ -2,8 +2,8 @@ package handler
 
 import (
 	"net/http"
-	"gin_restfull/internal/model"
-	"gin_restfull/internal/usecase"
+	"restfull_gin_gorm/internal/model"
+	"restfull_gin_gorm/internal/usecase"
 
 	"github.com/gin-gonic/gin"
 	"github.com/golang-jwt/jwt/v4"

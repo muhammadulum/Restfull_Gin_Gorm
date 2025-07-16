@@ -1,8 +1,8 @@
 package usecase
 
 import (
-    "gin_restfull/internal/domain"
-    "gin_restfull/internal/model"
+    "restfull_gin_gorm/internal/domain"
+    "restfull_gin_gorm/internal/model"
 )
 
 type CustomerUseCase struct {

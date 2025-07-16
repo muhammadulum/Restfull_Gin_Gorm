@@ -7,12 +7,12 @@
 package main
 
 import (
-	"gin_restfull_api/config"
-	"gin_restfull_api/internal/domain"
-	"gin_restfull_api/internal/handler"
-	"gin_restfull_api/internal/repository"
-	"gin_restfull_api/internal/usecase"
-	"gin_restfull_api/pkg/middleware"
+	"restfull_gin_gorm/config"
+	"restfull_gin_gorm/internal/domain"
+	"restfull_gin_gorm/internal/handler"
+	"restfull_gin_gorm/internal/repository"
+	"restfull_gin_gorm/internal/usecase"
+	"restfull_gin_gorm/pkg/middleware"
 
 	"github.com/gin-gonic/gin"
  // sesuaikan dengan nama module kamu

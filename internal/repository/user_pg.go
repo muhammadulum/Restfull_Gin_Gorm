@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"gin_restfull/internal/domain"
+	"restfull_gin_gorm/internal/domain"
 	"gorm.io/gorm"
 )
 

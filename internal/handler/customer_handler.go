@@ -1,8 +1,8 @@
 package handler
 
 import (
-    "gin_restfull/internal/model"
-    "gin_restfull/internal/usecase"
+    "restfull_gin_gorm/internal/model"
+    "restfull_gin_gorm/internal/usecase"
     "net/http"
     "strconv"
 

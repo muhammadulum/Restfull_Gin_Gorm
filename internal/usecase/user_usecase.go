@@ -2,10 +2,10 @@ package usecase
 
 import (
     "errors"
-    "gin_restfull/internal/domain"
-    "gin_restfull/internal/model"
-    "gin_restfull/pkg/middleware"
-    "gin_restfull/pkg/utils"
+    "restfull_gin_gorm/internal/domain"
+    "restfull_gin_gorm/internal/model"
+    "restfull_gin_gorm/pkg/middleware"
+    "restfull_gin_gorm/pkg/utils"
 )
 
 type UserUseCase struct {
